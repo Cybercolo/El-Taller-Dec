@@ -1,16 +1,16 @@
-# React + Vite
+# El Taller Dec
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Single-page e-commerce application for "El Taller Dec", a personal home decor brand.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React + Vite
+- Tailwind CSS
+- Framer Motion
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fully responsive SPA in Spanish
+- Product catalog with 18 items
+- Persistent slide-in shopping cart
+- Mock checkout flow ready to connect to Stripe/Webpay
